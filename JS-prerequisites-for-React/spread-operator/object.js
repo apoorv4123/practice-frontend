@@ -39,7 +39,7 @@ let obj1 = {
 // console.log(obj5);
 
 // Shortcut for creating deep copy:
-let obj6 = JSON.parse(JSON.stringify(obj1));
+let obj6 = JSON.parse(JSON.stringify(obj1)); // obj1 ko string mein convert karke usko parke kiya aur obj6(Object) mein store kara dia
 obj6.name = "Harry";
 obj6.address.country = "Korea";
 obj6.address.state.pin = 90;
