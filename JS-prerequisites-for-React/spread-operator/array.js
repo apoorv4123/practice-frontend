@@ -1,7 +1,7 @@
 let arr = [1,2,3];
 
 // let arr2 = arr;
-// arr2.push(4);
+// arr2.push(4); // 4 is added to both arr and arr2
 // console.log(arr);
 // console.log(arr2);
 

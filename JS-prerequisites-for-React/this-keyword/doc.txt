@@ -1,0 +1,9 @@
+global object, global execution context
+
+We are discussing about this is context of Browser environment and non-strict mode
+Layman terms: when we run our code(script.js), a global object is formed which runs our code
+'this' keyword refers to the current object
+
+If this is inside a function => this keyword refers to the object through which the function is called
+
+In Browser's context, the global object is Windows
